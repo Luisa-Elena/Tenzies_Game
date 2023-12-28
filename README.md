@@ -9,6 +9,8 @@
 ## Description
 - In a tenzies game, there are 10 dice and the player must select and roll them until all dice show the same face (number). Once selected, a die cannot be rolled again.
 - For each game, the time it took to finish it is recorded in seconds. The best time is stored in local storage.
+- I made this project after following this React Course: https://www.youtube.com/watch?v=bMknfKXIFA8&t=30493s&ab_channel=freeCodeCamp.org
+- The main part of the implementation is shown in the tutorial, but I added some extra features (the timer, images for dice)
 
 ## Installation
 
