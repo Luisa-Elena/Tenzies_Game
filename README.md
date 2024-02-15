@@ -56,7 +56,7 @@ npm start
     - tenzies: Represents whether the player has achieved Tenzies (true or false).
     - numRolls: Tracks the number of rolls performed during the game.
     - numSeconds: Represents the number of seconds elapsed since the first dice roll.
-    - time: Represents the best time achieved in previous games.
+    - time: Represents the best time achieved in previous games (held in local storage).
     - firstClick: Tracks whether the first click (dice roll) has occurred.
 - Functions:
     - allNewDice(): Initializes and returns an array of ten dice with random values. Each die is an object containing the randomNumber (digit from 1 to 6), isHeld (true or false to see if the die is frozen or not) and the id generated with nanoid()
